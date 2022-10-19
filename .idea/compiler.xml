@@ -6,22 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="client" />
-        <module name="Netflix-eureka" />
-        <module name="lb" />
+        <module name="user" />
+        <module name="say-hello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="client" target="17" />
-      <module name="lb" target="17" />
-      <module name="Netflix-eureka" target="17" />
+      <module name="LB" target="1.5" />
+      <module name="say-hello" target="17" />
+      <module name="user" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Netflix-eureka" options="-parameters" />
-      <module name="client" options="-parameters" />
-      <module name="lb" options="-parameters" />
+      <module name="say-hello" options="-parameters" />
+      <module name="user" options="-parameters" />
     </option>
   </component>
 </project>
