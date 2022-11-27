@@ -3,9 +3,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/lb/pom.xml" />
-        <option value="$PROJECT_DIR$/client/pom.xml" />
         <option value="$PROJECT_DIR$/Netflix-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/Application-GateWay/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroserviceA/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroserviceB/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroserviceC/pom.xml" />
       </list>
     </option>
   </component>

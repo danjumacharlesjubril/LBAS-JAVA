@@ -1,0 +1,4 @@
+ribbon:
+  eager-load:
+    enabled: true
+    clients: serverA, serverB, serverC

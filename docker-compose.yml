@@ -1,0 +1,51 @@
+version: '3'
+
+services:
+#  application-gateway:
+#    build: ./Application-GateWay
+#    container_name: application-gateway
+#    ports:
+#      - "8889:8888"
+#    environment:
+#      - SPRING_PROFILES_ACTIVE=docker
+#    networks:
+#      - spring
+  microservice-c:
+    build: ./MicroserviceC
+    container_name: microservice-c
+    ports:
+      - "6009:6000"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spring
+  microservice-a:
+    build: ./MicroserviceA
+    container_name: microservice-a
+    ports:
+      - "8090:9090"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spring
+  microservice-b:
+    build: ./MicroserviceB
+    container_name: microservice-b
+    ports:
+      - "3000:7000"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    networks:
+      - spring
+#  netflix-eureka:
+#    build: ./Netflix-eureka
+#    container_name: netflix-eureka
+#    ports:
+#      - "4000:8761"
+#    environment:
+#      - SPRING_PROFILES_ACTIVE=docker
+#    networks:
+#      - spring
+networks:
+    spring:
+      driver: bridge

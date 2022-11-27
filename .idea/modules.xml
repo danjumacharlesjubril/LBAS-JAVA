@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Application-GateWay/Application-GateWay.iml" filepath="$PROJECT_DIR$/Application-GateWay/Application-GateWay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroserviceA/MicroserviceA.iml" filepath="$PROJECT_DIR$/MicroserviceA/MicroserviceA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroserviceB/MicroserviceB.iml" filepath="$PROJECT_DIR$/MicroserviceB/MicroserviceB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MicroserviceC/MicroserviceC.iml" filepath="$PROJECT_DIR$/MicroserviceC/MicroserviceC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Netflix-eureka/Netflix-eureka.iml" filepath="$PROJECT_DIR$/Netflix-eureka/Netflix-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lb/lb.iml" filepath="$PROJECT_DIR$/lb/lb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/microservice.iml" filepath="$PROJECT_DIR$/.idea/microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/New-LB.iml" filepath="$PROJECT_DIR$/.idea/New-LB.iml" />
     </modules>
   </component>
 </project>
